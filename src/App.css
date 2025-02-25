@@ -1,0 +1,24 @@
+/* app.css */
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.bg-blue-500 {
+  background-color: #3182ce;
+}
+
+.bg-red-500 {
+  background-color: #f56565;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.text-white {
+  color: white;
+}
