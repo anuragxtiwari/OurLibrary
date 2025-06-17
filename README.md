@@ -1,8 +1,46 @@
-# React + Vite
+# 📚 OurLibrary - LMS (Learning Management System)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo: [Click here 🚀](https://anuragxtiwari.github.io/OurLibrary/)
 
-Currently, two official plugins are available:
+## 📌 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**OurLibrary** is a web-based Learning Management System (LMS) built using **React + Vite**.  
+It allows users and admins to manage books, track issues, view statistics, and handle library operations efficiently.
+
+---
+
+## ✨ Features
+
+### 👥 Users
+- View available books
+- Track books issued
+- View due books
+- Reset password
+
+### 🛠️ Admin
+- View complete library stats
+- Add/Edit/Delete books
+- Manage users
+- Secure login/logout
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React + Vite
+- 🎨 Tailwind CSS
+- 🔥 Firebase (Auth + Firestore)
+- 📦 gh-pages (for deployment)
+
+---
+
+## 🚀 Deployment
+
+This app is deployed using **GitHub Pages**:  
+https://anuragxtiwari.github.io/OurLibrary/
+
+To deploy your own version:
+```bash
+npm install
+npm run build
+npm run deploy
